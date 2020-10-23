@@ -1,0 +1,5 @@
+Esto es un fichero de prueba donde vamos a change la palabra change por otra diferente
+tantas veces como se pueda
+
+Y puestos a change este sería el segundo párrafo donde se debe actuar utilizando
+el guion cambiapalabra
