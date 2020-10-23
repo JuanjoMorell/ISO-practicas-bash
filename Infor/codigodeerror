@@ -1,0 +1,3 @@
+echo $?
+si sale 0 el resultado de la anterior operacion es correcto
+si es distinto de 0 no

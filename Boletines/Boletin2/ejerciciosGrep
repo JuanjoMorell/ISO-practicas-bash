@@ -1,0 +1,14 @@
+1. grep manzanas compras/compras_nacionales
+2. grep manzanas compras/*
+3. grep -l naranjas compras/*
+4. grep -i peras compras/compras*
+5. grep -hi peras compras/compras*
+6. grep -ni "1500 Kilogramos" compras/compras*
+7. grep -v uvas compras/compras_estracomunitarias
+8. grep -n manzanas compras/*
+9. grep -i "100* Kilogramos" compras/*
+10. grep "[0-9]" compras/proveedores
+11. grep -i "[^1]000 Kilogramos" compras/*
+12. grep "^m" compras/compras_nacionales 
+13. ls -l compras/ | grep "les$"
+14. 

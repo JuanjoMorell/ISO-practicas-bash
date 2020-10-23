@@ -1,0 +1,14 @@
+Ejercicio 3 -
+
+find /home/alumno/ -type f \( -name "*.txt" -o -name "*.json" \) -perm -060 -printf "%p %s\n" -exec cp {} ./copia/ \;
+
+Ejercicio 4 -
+
+find /home/alumno/ -type f \( -name "*.txt" -o -name "*.json" \) -perm -060 -printf "%p %s\n" | sort -k2nr
+
+Ejercicio 5 -
+find /home/alumno/ -type f \( -name "*.txt" -o -name "*.json" \) -perm -060 -printf "%p %s\n" | wc -l
+
+ó
+
+find /home/alumno/ -type f \( -name "*.txt" -o -name "*.json" \) -perm -060 -printf "%p %s\n" | grep -vc "^$"

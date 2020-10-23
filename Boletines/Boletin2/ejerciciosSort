@@ -1,0 +1,4 @@
+1. cat empleados | sort
+   cat empleados | sort -nk3 -t" "
+   cat empleados | sort -k5 -t" "
+2. 

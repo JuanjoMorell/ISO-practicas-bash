@@ -1,0 +1,17 @@
+1. ps aux | grep "alumno"
+2. ps aux | grep -c "alumno"
+3. ps aux | grep -vc "alumno"
+4. find /etc -type f | grep -il "alumno"
+5. cat /etc/passwd | grep "alumno"
+6. ps aux | grep -io "[a-zA-Z]*" | tail -n +2
+7. ps aux | grep -io "[a-zA-Z]\{4,4\}" | tail -n +2 | sort
+8. ps aux | grep -io "[a-zA-Z]\{4,4\}" | tail -n +2 | sort | column
+9. ps aux | grep -o "[0-9]*"
+10. ps aux | grep -o "[0-9]*" | sort -nr
+11. ps aux | tr -s " " | tail -n +2 | sort -k6n | tr " " "\t"
+12. ps aux | tr -s " " | tail -n +2 | cut -d" " -f6
+13. find /etc/ -type f -printf "%p:%s\n" | sort -nk2 -t":"
+14. ps aux | tail -n +2 | tr -s " " | cut -f1 -d" " | sort | uniq
+15. ps aux | tail -n +2 | tr -s " " | cut -f1 -d" " | sort | uniq -c | grep -v "1"
+16. ps aux | tail -n +2 | tr -s " " | cut -f1 -d" " | sort | uniq -c | grep -v "1" | tr "[:lower:]" "[:upper:]"
+17. ps aux | tail -n +2 | tr -s " " | cut -f1 -d" " | sort | uniq | wc -l

@@ -1,0 +1,5 @@
+1. cut -d" " -f5,6 pruebas/purchases | sort | uniq -c
+2. cut -d" " -f1,2 pruebas/purchases | sort | uniq > pruebas/customers
+3. cut -d" " -f1,2 pruebas/purchases | sort | uniq -c | grep -v "1"
+4. cut -d" " -f3,4 pruebas/purchases | sort | uniq -c
+5. cut -d" " -f5,6 pruebas/purchases | sort | uniq -c | tr -s " " | grep -v "^ 1"

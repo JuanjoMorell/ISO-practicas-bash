@@ -1,0 +1,3 @@
+Ahora los rangos [A-Z] son : AbBcCdD...zZ
+Para mayusculas usar -> ls -l | grep [[:upper:]]
+En grep y find se usa el doble corchete.

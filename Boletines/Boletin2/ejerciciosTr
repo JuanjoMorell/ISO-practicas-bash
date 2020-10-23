@@ -1,0 +1,6 @@
+1. cat pruebas/empleadostabulados | tr -s " "
+2. cat pruebas/empleadostabulados | tr -s "\t"
+3. cat pruebas/empleadostabulados | tr "[a-z]" "[A-Z]"
+  ó cat pruebas/empleadostabulados | tr "[:lower:]" "[:upper:]"
+4. cat pruebas/empleadostabulados | tr " " "x"
+5. echo Secreto a voces es un oximoron | tr " " "\n"
